@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@800&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@800&family=Poppins:ital,wght@1,800&display=swap');
+html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins';
+
+}
+body{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+ 
+  background-color: hsl(0, 0%, 86%);
+}
+#parent{
+    padding: 60px;
+    width:30% ;
+    height: 60%;
+    background-color: hsl(0, 0%, 100%);
+    align-items: right;
+border-bottom-right-radius: 130px;  
+border-bottom-left-radius: 20px; 
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+flex-direction: column;
+
+
+}
+#container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-items: center;
+    column-gap: 20px;
+    
+}
+#lab1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+#inpt{
+    display: flex;
+    flex-direction:row;
+    column-gap: 10px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    border:0px none;
+   position: relative;
+   bottom: 9%;
+   left: 90%;
+   border-color: hsl(259, 100%, 65%);
+   border-radius: 50%;
+   background-color: hsl(259, 100%, 65%);
+cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+}
+
+#day,#month,  #year{
+    width: 80px;
+    height: 40px;
+    border-radius: 10px; 
+    cursor: pointer; 
+    border: 1px solid hsl(0, 0%, 86%);
+}
+#day:focus{
+    outline: none;
+border-color: hsl(259, 100%, 65%);
+}
+
+#month:focus{
+    outline: none;
+border-color: hsl(259, 100%, 65%);
+}
+
+#year:focus{
+    outline: none;
+border-color: hsl(259, 100%, 65%);
+}
+hr{
+   margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+#lab1{
+    color: hsl(0, 1%, 44%);
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+}
+#result{
+width: 60%;
+height: 50px;
+margin-top: 0px;
+margin-top: 0px;
+   
+}
+
+#dd{
+    position: relative;
+    bottom: 5%;
+}
+p{
+   
+    margin-top: 0px;
+margin-top: 0px;
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Poppins';
+    line-height: 1;
+}
+#yearval , #monthval, #dayval {
+    color: hsl(259, 100%, 65%);
+    font-size: 70px;
+    font-weight: bold;
+}
